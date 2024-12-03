@@ -45,6 +45,14 @@ function affiche(recette) {
 
     console.log(listeIng)
 
+    // Je vuex gerer les ingredients : recette.ingredients qui est un tableau d'objet avec des clés : quantite, unite, aliment
+    // <li>200 gr de pates</li>
+    let listeEtap =""
+    recette.etapes.forEach(eta => {
+        listeEtap += `<li>${eta.descEtape}</li> `
+    });    
+
+    console.log(listeEtap)
     let container =document.querySelector(".container")
     container.innerHTML += `  <div class="marg">
                     <h3 class="col">${titre}</h3>
@@ -65,7 +73,7 @@ function affiche(recette) {
                             <div class="width25">
                                 <h4>Étapes :</h4>
                                 <ol>
-                                   
+                                   ${listeEtap}
                                 </ol>
                             </div>
                             <div class="divIg width45">

@@ -21,6 +21,10 @@ html{
     justify-content: space-between;
 }
 
+.gap{
+    gap: 12px;
+}
+
 .width25{
     width: 25%;
     
@@ -57,7 +61,9 @@ html{
     padding: 12px;
 }
 
-
+.color{
+    color: #FF6F61;
+}
 .col{
     color: #FF6F61;
     font-family: "Josefin Sans", sans-serif;
@@ -104,19 +110,46 @@ h4 {
     padding: 15px;
 }
 
+li {
+    margin-bottom: 5px;
+}
 
 /*SECTION HEADEAR*/
 a{
     text-decoration: none;
     color: #000000;
+    margin-left: 25px;
 }
 
 .lip{
     list-style: none;
+   
     
 }
 
 nav {
     background-color: #F6F6F6;
-    padding: 25px;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+.btn{
+    background-color: #FF6F61;
+    color: white;
+    padding: 7px;
+    border-radius: 19px;
+    margin-bottom: 5px;
+}
+
+.btnS{
+    border: solid;
+    padding: 7px;
+    border-radius: 19px;
+    color: #FF6F61;
+    margin-bottom: 5px;
+}
+
+.divRigth{
+    justify-content: right;
 }
