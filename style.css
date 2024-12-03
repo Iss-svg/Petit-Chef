@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "inter",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*permet aux boite de ne pas grossire quand l'on met du padding*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.width25{
+    width: 25%;
+    
+}
+.width30{
+    width: 30%
+}
+
+
+.width40{
+    width: 40%;
+}
+.width45{
+    width: 45%;
+}
+
+.width50{
+    width: 50%;
+}
+.width60{
+    width: 60%;
+}
+.width70{
+    width: 70%;
+}
+
+
+
+/*section Div*/
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+}
+
+
+.col{
+    color: #FF6F61;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+.divIg{
+    
+}
+
+.divIg img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.listeP{
+    list-style: none;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+
+li span {
+    font-weight: 900;
+}
+
+.marg{
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+h4 {
+    margin-bottom: 8px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+
+}
+
+.pad{
+    padding: 15px;
+}
+
+
+/*SECTION HEADEAR*/
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.lip{
+    list-style: none;
+    
+}
+
+nav {
+    background-color: #F6F6F6;
+    padding: 25px;
+}
